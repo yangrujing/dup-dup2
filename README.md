@@ -1,7 +1,7 @@
 # dup-dup2
 dup/dup2编程练习
 他的原型如下：
-##include <unsitd.h>
+\#include <unsitd.h>
 int dup(int oldfd);
 int dup2(int oldfd,int newfd);
 系统调用dup和dup2能够复制文件描述符。
